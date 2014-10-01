@@ -577,10 +577,13 @@ header .brand {
   letter-spacing: -1px;
   color: #2c3e50;
 }
+
+
 header .brand img:first-child {
   float: left;
-  margin: -10px 15px 0 0;
+  margin: -100px 15px 0 0;
 }
+
 section * {
   z-index: 2;
 }
@@ -855,6 +858,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   height: 100px !important;  */
   margin-top: 150px !important; 
 }
+
+
 .loaded .header-13 {
   -webkit-transition: .6s 1.4s top, 1.2s 1.4s opacity;
   -moz-transition: .6s 1.4s top, 1.2s 1.4s opacity;
