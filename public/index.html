@@ -18,7 +18,17 @@
         <link rel="stylesheet" href="startup/common-files/css/animations.css">
         <link rel="stylesheet" href="static/css/style.css">
         
-        <title></title>
+        <title>foodios - the easiest way to find places to eat</title>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-46197439-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
     </head>
 
     <body>
@@ -37,7 +47,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-1">
-                    <p class="lead">The easiest way to discover new restaurants.</p>
+                    <p class="lead">The easiest way to find places to eat.</p>
                     <p class="lead">Sign up for our beta list and receive an email as soon as we go live.</p> 
                     <div class="row">
                         <section class="content-13 subscribe-form bg-black">
@@ -50,7 +60,7 @@
                                         <div class="col-sm-3">
                                             <div style="position: absolute; left: -5000px;"><input type="text" name="b_0791b135069a9f7fb3e7e3caf_d910333a24" tabindex="-1" value="">
                                             </div>
-                                            <button class="btn btn-large btn-primary" input type="submit" name="subscribe">
+                                            <button class="btn btn-large btn-primary" input type="submit" name="subscribe" onClick="_gaq.push(['_trackEvent', 'Email']);">
                                                 Submit
                                             </button>
                                         </div>
