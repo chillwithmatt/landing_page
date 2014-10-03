@@ -830,33 +830,18 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-13 {
   position: absolute;
   width: 100%;
-  margin: 140px auto;
-  z-index: 5;
-  padding-top: 0;
-  padding-bottom: 0;
+  margin-top: 280px;
   opacity: 0;
   filter: alpha(opacity=0);
 }
-@media (max-width: 767px) {
-  .header-13 {
-    text-align: center;
+
+ @media (max-width: 480px){                               /* edit mobile position */
+  .header-13 { 
+    display: block;
+  margin-top:  160px;
+  margin-left: 30px;
+  margin-right: auto;
   }
-  .header-13 .brand {
-    position: absolute;
-    top: -120px;
-    left: 50%;
-    margin-left: -50px;
-  }
-}
-@media (max-width: 767px) and (max-width: 480px) {
-  .header-13 .brand {
-    top: 0;
-  }
-}
-.header-13 .brand img {                                                           /* move the position of the logo! */
-  /* width: 100px !important;
-  height: 100px !important;  */
-  margin-top: 150px !important; 
 }
 
 
@@ -948,11 +933,23 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);                                             /* drop shadow and middle subtext properties */
   font-size: 18px;
   font-weight: normal;
-  padding: 0px;
   color: #FFFFFF;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  margin-right: -50px;
+
+}
+
+@media (max-width: 480px) {
+.header-13-sub .lead { 
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);                                             /* drop shadow and middle subtext properties */
+  font-size: 16px;
+  font-weight: normal;
+  color: #FFFFFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+  }
 }
 
 .header-13-sub .col-sm-6.col-sm-offset-1 {
@@ -971,8 +968,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   display: block;
 }
 .header-13-sub .background {
-  background-image: url("../../startup/common-files/img/header/img-4 - wood1.jpg");
-  background-color: white;
+   background-image: url("../../startup/common-files/img/header/img-4 - wood.jpg"); 
+  background-color: #E6E6E6;
   opacity: 90;
   filter: alpha(opacity=9000);
   opacity: 0.95;
@@ -1017,7 +1014,11 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     padding-top: 90px;
   }
   .header-13-sub > div > .container {
-    padding-top: 180px;
+    padding-top: 150px;
+  }
+  }
+  .header-13 .brand img {
+    margin-top: -100px;
   }
   .header-13-sub .col-sm-5.col-sm-offset-1,
   .header-13-sub .col-sm-4.offset-1 {
@@ -1035,19 +1036,28 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  * Content 13 stylesheet  
  * */
 .content-13 {
-  position: relative;
+  position: absolute;
 }
 .content-13.subscribe-form {
   /* color: #a1a9b1; */                                                 /* added top margin for space between text and form */
   margin-left: 10px;  
   height: 40px;
-  width: 415px;
+  width: 70%;
   border-radius: 3px;                                                                         /* you can change entire position of email field and button here */
+}
+
+@media (max-width: 480px) {
+.content-13.subscribe-form {
+  /* color: #a1a9b1; */                                                 /* added top margin for space between text and form */
+  margin-left: 10px;  
+  height: 30px;
+  width: 95%;
+  border-radius: 3px;                                                                         /* you can change entire position of email field and button here */
+  }
 }
 
 .content-13.subscribe-form .col-sm-4 {                                                   /* i think i changed sm-4 to sm-3 in the view */
   text-align: right;
-
 
 
 }
@@ -1094,27 +1104,27 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   line-height: 40px;                                                                                 /* position of the 'Enter your e-mail' txt */
   font-size: 18px;
   font-weight: normal;
-  color: #ffffff;
+  color: #D1D0CE;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   /* letter-spacing: -1px;  */                                                                        /* space between letters */
 }
 .content-13.subscribe-form input[type="text"]:-moz-placeholder,
 .content-13.subscribe-form input[type="email"]:-moz-placeholder {
-  color: #ffffff;
+  color: #D1D0CE;
 }
 .content-13.subscribe-form input[type="text"]::-moz-placeholder,
 .content-13.subscribe-form input[type="email"]::-moz-placeholder {
-  color: #ffffff;
+  color: #D1D0CE;
   opacity: 1;
 }
 .content-13.subscribe-form input[type="text"]:-ms-input-placeholder,
 .content-13.subscribe-form input[type="email"]:-ms-input-placeholder {
-  color: #ffffff;
+  color: #D1D0CE;
 }
 .content-13.subscribe-form input[type="text"]::-webkit-input-placeholder,
 .content-13.subscribe-form input[type="email"]::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #D1D0CE;
 }
 .content-13.subscribe-form input[type="text"].placeholder,
 .content-13.subscribe-form input[type="email"].placeholder {
@@ -1149,14 +1159,24 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   line-height: 50px;
   font-size: 50px;
   font-weight: normal;
-  color: #ffffff;
+  color: #D1D0CE;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .content-13.subscribe-form .btn {
-  position: relative;                                                               /* moved the button to the right 112 pixels */
-  left: 112px;                                                          
+  position: relative;                                                               /* moved the button to the right 112 pixels */                                                         
   /* width: 220px; */
   max-width: 100%;
+  margin-left: 110px;
+}
+
+@media (max-width: 480px) {
+.content-13.subscribe-form .btn {
+  position: relative;                                                               /* moved the button to the right 112 pixels */
+  margin-left: auto;
+  margin-right: auto;                                                         
+  /* width: 220px; */
+  max-width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1166,11 +1186,11 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     width: 100%;
     margin-bottom: 33px;
     line-height: 27px;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: normal;
-    color: #ffffff;
+    color: #D1D0CE;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
+    text-align: left;
   }
 }
 @media (max-width: 688px) {
@@ -1179,7 +1199,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   .content-13.subscribe-form .ani-placeholder {
     width: 100%;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
   }
 }
 .content-30 {
@@ -1264,6 +1284,16 @@ text-align: right;
 margin-left: 0px;
 }
 
+@media (max-width: 480px) {
+.sub {
+  text-align: left;
+  margin-left: 0px;
+  }
+  .sub1 {
+  text-align: left;
+  margin-left: 0px;
+  }
+}
 
 .content-30 .features img[src*="arrow-"] {
   position: absolute;
@@ -1345,7 +1375,7 @@ margin-left: 0px;
  * Footer 5 stylesheet  
  * */
 .footer-5 {
-  background-image: url("../../startup/common-files/img/header/img-4 - black wood.jpg");
+  background-image: url("../../startup/common-files/img/header/img-4 - wood.jpg");
   padding-top: 35px;                                    /* size of footer */
   padding-bottom: 35px;
   text-align: center;
