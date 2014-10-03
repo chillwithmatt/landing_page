@@ -838,8 +838,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  @media (max-width: 480px){                               /* edit mobile position of header*/
   .header-13 { 
     display: block;
-  margin-top:  120px;
-  margin-left: 20px;
+  margin-top:  130px;
+  margin-left: 0px;
   margin-right: auto;
   }
 }
@@ -1015,7 +1015,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
   .header-13-sub > div > .container {
     padding-top: 150px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     }
   }
   .header-13 .brand img {
@@ -1050,10 +1050,10 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 @media (max-width: 480px) {
 .content-13.subscribe-form {
   /* color: #a1a9b1; */   
-  margin-top: 20px;                                              /* added top margin for space between text and form */
+  margin-top: 5px;                                              /* added top margin for space between text and form */
   margin-left: 10px;  
   height: 30px;
-  width: 95%;
+  width: 93%;
   border-radius: 3px;                                                                         /* you can change entire position of email field and button here */
   }
 }
