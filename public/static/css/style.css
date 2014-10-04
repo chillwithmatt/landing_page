@@ -523,7 +523,7 @@ img {
 
 .triangle{
     position: absolute;
-      top: 675px;
+      top: 665px;
       left: 550px;
     }
 @media (max-width: 460px) {
