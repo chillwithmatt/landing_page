@@ -517,7 +517,7 @@ h1 {
 }
 h3,
 .h3.hover {
-  color: white;
+  color: #ECF0F1;
   text-align: center;
   margin-top: -50px;
   margin-bottom: 20px;
@@ -954,9 +954,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);                                             /* drop shadow and middle subtext properties */
   font-size: 18px;
   font-weight: normal;
-  color: #FFFFFF;
+  color: black;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 
 }
 
@@ -989,8 +989,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   display: block;
 }
 .header-13-sub .background {
-   background-image: url("../../startup/common-files/img/header/img-4 - wood.jpg"); 
-  background-color: #E6E6E6;
+  /* background-image: url("../../startup/common-files/img/header/red_gradient.jpg"); */
+  background-color: white;
   opacity: 90;
   filter: alpha(opacity=9000);
   opacity: 0.95;
@@ -1409,7 +1409,8 @@ margin-left: 0px;
  * Footer 5 stylesheet  
  * */
 .footer-5 {
-  background-image: url("../../startup/common-files/img/header/img-4 - wood.jpg");
+  /* background-image: url("../../startup/common-files/img/header/red_gradient.jpg"); */
+  color: white;
   padding-top: 35px;                                    /* size of footer */
   padding-bottom: 35px;
   text-align: center;
@@ -1417,12 +1418,12 @@ margin-left: 0px;
 }
 .footer-5 .brand {
   display: inline-block;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .footer-5 .text {
   font-size: 14px;
-  font-weight: normal;
-  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  color: black;
   margin: 0 80px;
   line-height: 1.45;
 }
