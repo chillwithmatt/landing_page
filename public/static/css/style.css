@@ -859,7 +859,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  @media (max-width: 480px){                               /* edit mobile position of header*/
   .header-13 { 
     display: block;
-  margin-top:  105px;
+  margin-top:  70px;
   margin-left: -5px;
   margin-right: auto;
   }
@@ -978,7 +978,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 @media (max-width: 460px) {
   .header-13-sub .col-sm-6.col-sm-offset-1 {
-    margin-top: -30px;
+    margin-top: -50px;
   }
 }
 
@@ -1076,7 +1076,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 @media (max-width: 480px) {
 .content-13.subscribe-form {
   /* color: #a1a9b1; */   
-  margin-top: 5px;                                              /* added top margin for space between text and form */
+  margin-top: 25px;                                              /* added top margin for space between text and form */
   margin-left: 10px;  
   height: 30px;
   width: 93%;
