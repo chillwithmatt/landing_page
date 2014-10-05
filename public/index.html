@@ -29,6 +29,8 @@
           ga('send', 'pageview');
 
         </script>
+        <script src="startup/common-files/js/bind-polyfill.js"></script>
+        <script src="startup/common-files/js/smooth-scroll.js"></script>
     </head>
 
     <body>
@@ -75,15 +77,13 @@
                     <img src="startup/common-files/img/header/iphone-biga.png" width="80%" class="hidden-xs" alt="">
                 </div>
                 <div class="triangle">
-<a href="#features"><img src="startup/common-files/icons/triangle.png" width="50" height="40" alt=""></a>
+                    <a data-scroll href="#features" ><img src="startup/common-files/icons/triangle.png" width="50" height="40" alt=""></a>
                 </div>
             </div>
         </div>
-
     </div>
-
 </section>
-<div id="features"></a>
+<div id="features"></div>
 <section class="content-30">
     <div class="container">
         <div class="row features">
@@ -188,4 +188,7 @@
             <script src="startup/common-files/js/startup-kit.js"></script>
         </div>
     </body>
+    <script>
+    smoothScroll.init();
+    </script>
 </html>
